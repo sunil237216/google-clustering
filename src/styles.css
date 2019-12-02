@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 10px 20px 20px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+#map-container {
+    padding: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc #ccc #999 #ccc;
+    -webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+    -moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+    box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+    
+}
+
+.tooltipTable td, .tooltipTable th {
+    /* padding: 0.15rem; */
+    padding: 1px 12px 3px 12px;
+    border-top: 0px;
+}
+ .tooltipTable th {
+  text-align: center;
+  font-weight: 600;
+}
+.tooltipTable th:first-child {
+    border-right: 0px;
+  }
+
+.tooltipTable td .square {
+    width:10px !important;
+    height:10px !important;
+    margin : 2px;
+    font-size: 0.5rem;
+    opacity: 0.8;
+}
+
+.tooltipTable{
+    margin-bottom: 0rem;
+    /* font-size: 0.7rem; */
+}
+
+div.google-visualization-tooltip {
+    width: auto;
+    height:auto;
+    background-color: #ccccff;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#map {
+    /* width: 800px; */
+    height: 800px;
+}
+
+svg > g > g:last-child { pointer-events: none }
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
